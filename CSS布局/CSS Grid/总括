@@ -1,0 +1,51 @@
+CSS Grid 
+	
+意义：	创建网格布局最强大和最简单的工具。
+		二维，基于网格。	// flexbox 一维布局 
+		flexbox 可以与 grid 结合使用。
+
+
+核心部分：
+	wrapper: 实际网格容器
+	items: 是格的内容
+
+概念：
+	网格容器
+		使用 column, float, clear, vertical-align 无效。
+	网格项
+	网格线
+	网格轨道
+	单元格
+	区域
+
+内容：
+	wrapper:
+		display
+			grid, inline-grid, subgrid
+		grid-template-columns
+		grid-template-rows
+			单位： px % fr剩余空间 auto repeat重复
+		grid-template-areas
+			grid-area . none
+		grid-template
+		grid-column-gap
+		grid-row-gap
+		grid-gap
+		justify-items
+		align-items
+		justify-content
+		align-content
+		grid-auto-columns
+		grid-auto-rows
+		grid-auto-flow
+		grid
+	items:
+		grid-column
+		grid-column-start 	// 占网格线
+		grid-column-end
+		grid-row
+		grid-row-start
+		grid-row-end
+		grid-area
+		justify-self
+		align-self
